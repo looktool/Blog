@@ -130,7 +130,7 @@ void snakeMove()
         }   
         else
         {
-            snake.pos[0].y = MAX_HEIGHT;
+            snake.pos[0].y = MAX_HEIGHT - 1;
         }
         break;
     case DOWN:
@@ -150,7 +150,7 @@ void snakeMove()
         }   
         else
         {
-            snake.pos[0].x = MAX_WEIGHT;
+            snake.pos[0].x = MAX_WEIGHT - 1;
         }
         break;
     case RIGHT:
